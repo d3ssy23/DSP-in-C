@@ -1,3 +1,9 @@
+/*
+
+This program calculates the mean of an input signal, using a txt file with the input signal values from time domain.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
