@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dessy/Desktop/DSP Matlab/DSP in C/dsp/Rectangular_to_Polar/rect_to_polar'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BC0, symSize: 0x188 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _ecg_imx, symObjAddr: 0x368, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x6F, offset: 0x6F, size: 0x8, addend: 0x0, symName: _ecg_rex, symObjAddr: 0xD68, symBinAddr: 0x100008A00, symSize: 0x0 }
+  - { offsetInCU: 0x8B, offset: 0x8B, size: 0x8, addend: 0x0, symName: _Output_magnitude, symBinAddr: 0x100009400, symSize: 0x0 }
+  - { offsetInCU: 0xA0, offset: 0xA0, size: 0x8, addend: 0x0, symName: _Output_phase, symBinAddr: 0x100009E00, symSize: 0x0 }
+  - { offsetInCU: 0xA9, offset: 0xA9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BC0, symSize: 0x188 }
+  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _rect_to_polar_conversion, symObjAddr: 0x188, symBinAddr: 0x100003D48, symSize: 0x1D4 }
+...
