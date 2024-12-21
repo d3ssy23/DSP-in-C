@@ -1,13 +1,19 @@
 # Digital Signal Processing (DSP) Fundamentals
-    This repository contains C scripts, MATLAB live scripts, data files, and resources for exploring fundamental concepts with C code algorithms and Matlab live
-    scripts for signal analysis and output representations in Digital Signal Processing (DSP). 
+    This repository contains C scripts, MATLAB live scripts and data files. 
+    The resources are summed up for the exploration of fundamental concepts in DSP using C code algorithms and Matlab live
+    scripts for signal analysis and presentation.
     The examples include basic signal transformations, filtering techniques, and spectral analysis.
 
 # Repository Structure
+    All the C scripts included use a raw data signal array from waveforms.c, and each one contain Makefile including it. 
+    In each folder there's the file output from the script in .dat format using the general array in waveforms.c.
+    The waveforms.c can be modified, and use another values for the algorithm script consumption.
+## ------- Check out my wav2code-tool which includes Matlab script for generating a raw data file from .wav file. ---------
+
     The repository is organized into the following sections:
 
 ## 1. Complex DFT
-    Scripts related to the Discrete Fourier Transform (DFT) for complex signals.
+    C script related to the Discrete Fourier Transform (DFT) for complex signals.
     Useful for analyzing the frequency components of complex-valued signals.
 ## 2. Convolution
     Demonstrates the convolution operation, a fundamental concept in signal processing for filtering and system response analysis.
@@ -20,7 +26,7 @@
     Mean
     Variance
     Standard Deviation
-    - Useful for signal characteristics and noise analysis.
+    --- Useful for signal characteristics and noise analysis ---
 ## 6. Windowed-Sinc Filters
     Windowed-sinc BP filter: Implements a bandpass filter using the windowed-sinc method.
     Windowed-sinc LP filter: Implements a lowpass filter using the same method.
