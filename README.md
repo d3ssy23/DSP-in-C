@@ -6,19 +6,33 @@
 
 # Repository Structure
     All the C scripts included use a raw data signal array from waveforms.c, and each one contain Makefile including it. 
-    In each folder there's the file output from the script in .dat format using the general array in waveforms.c.
-    The waveforms.c can be modified, and use another values for the algorithm script consumption.
+    Most folders has the file output from the script in .dat format using the general array in waveforms.c which has component 1hz and 15hz, sampled at 44100khz.
+    The Makefile or waveforms.c can be modified, and use another values for the script consumption.
+    
+    
 ## ------- Check out my wav2code-tool which includes Matlab script for generating a raw data file from .wav file. ---------
-
+        https://github.com/d3ssy23/wav2code-tool/tree/main
+    
+    
+# Contents:   
     The repository is organized into the following sections:
 
 ## 1. Complex DFT
     C script related to the Discrete Fourier Transform (DFT) for complex signals.
     Useful for analyzing the frequency components of complex-valued signals.
+    Uses a ImX and ReX components.
+    Creates two output files containing the real and imaginary part of the complex signal.
+    
 ## 2. Convolution
     Demonstrates the convolution operation, a fundamental concept in signal processing for filtering and system response analysis.
+    Uses a matlab generated impulse response from filterdesigner tool (filter_kernel.c) and the waveforms.c data signal array.
+    Creates 3 data files containing the data of the filter kernel, the input signal and the output signal result after the convolution of the filter kernel and the input signal.
+    ---NOTE: In matlab's filterdesigner tool the filter kernel can be exported directly as C header and then directly attached to the makefile, which generally simplify the process ---
+    
 ## 3. DFT and IDFT
+    
     Examples include processing signals like ECG.
+    
 ## 4. Rectangular to Polar Transformation
     Supports tasks requiring magnitude and phase representation of signals.
 ## 5. Statistical Analysis
