@@ -12,7 +12,7 @@
     
  :boom:_Check out my **wav2code-tool** which includes Matlab script for generating a raw data file from .wav file._:boom:
  
-        https://github.com/d3ssy23/wav2code-tool/tree/main
+            :point_right:https://github.com/d3ssy23/wav2code-tool/tree/main
     
     
 # Contents:   
