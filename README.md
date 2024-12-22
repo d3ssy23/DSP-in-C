@@ -1,5 +1,5 @@
 # Digital Signal Processing (DSP) Fundamentals
--This repository contains C scripts, MATLAB live scripts and data files. 
+            This repository contains C scripts, MATLAB live scripts and data files. 
     The resources are summed up for the exploration of fundamental concepts in DSP using C code algorithms and Matlab live
     scripts for signal analysis and presentation.
     The examples include basic signal transformations, filtering techniques, and spectral analysis.
