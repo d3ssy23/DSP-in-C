@@ -10,7 +10,7 @@
     The Makefile or waveforms.c can be modified, and use another values for the script consumption.
     
     
- _ Check out my ** wav2code-tool ** which includes Matlab script for generating a raw data file from .wav file. _
+ _Check out my **wav2code-tool** which includes Matlab script for generating a raw data file from .wav file._
  
         https://github.com/d3ssy23/wav2code-tool/tree/main
     
