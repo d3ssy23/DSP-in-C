@@ -10,9 +10,9 @@
     The Makefile or waveforms.c can be modified, and use another values for the script consumption.
     
     
- :boom:_Check out my **wav2code-tool** which includes Matlab script for generating a raw data file from .wav file._
+ :boom:_Check out my **wav2code-tool** which includes Matlab script for generating a raw data file from .wav file._:boom:
  
- :boom::point_down:
+ :point_down:
           
           https://github.com/d3ssy23/wav2code-tool/tree/main
     
@@ -60,6 +60,8 @@ The repository is organized into the following sections:
 
 ## Clone the repository:
 bash:
+
+:point_down:
     
     git clone https://github.com/d3ssy23/DSP-in-C.git
 
