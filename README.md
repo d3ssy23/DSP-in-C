@@ -55,7 +55,8 @@ The repository is organized into the following sections:
    - Demonstrate and apply the equation for the differentiation (Fisrt difference) and integration (Running sum) of discrete signals.
     
 ## 8. Moving avarage filter
-    -in progress
+   - Moving avarage filter algorithm designed in C contating the input and output data files, presented in Matlab .fig file.
+   - The window size presented is 10steps and the total samples in the input signal in noisedsquare.c contains 100 samples.
     
 
 ## Clone the repository:
